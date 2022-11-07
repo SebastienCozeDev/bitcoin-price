@@ -6,10 +6,16 @@ Le projet consiste en la création d'un petit projet en JavaScript avec NodeJS p
 
 On peut lancer le programme de plusieurs façons différentes :
 
-- `node btc.js`
-- `nodemon btc.js`
-- `npm run dev`
-- `./btc.js`
+- `node btc.js <currency>`
+- `nodemon btc.js <currency>`
+- `npm run dev <currency>`
+- `./btc.js <currency>`
+
+__Liste des devises :__
+
+- `USD`
+- `EUR`
+- `GBP`
 
 ## Packages utilisés
 
