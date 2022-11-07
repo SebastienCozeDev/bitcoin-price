@@ -11,7 +11,7 @@ On peut lancer le programme de plusieurs façons différentes :
 - `npm run dev <currency>`
 - `./btc.js <currency>`
 
-__Liste des devises :__
+__Liste des devises possibles :__
 
 - `USD`
 - `EUR`
