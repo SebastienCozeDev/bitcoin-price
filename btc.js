@@ -12,7 +12,7 @@ async function main() {
         const rate = response.data.bpi[currency].rate;
         console.log(`> 1 BTC = ${rate} ${currency} (${updatedAt})`);
     } catch (err) {
-        console.error(err);
+        console.error(err.toString());
     }
 }
 
