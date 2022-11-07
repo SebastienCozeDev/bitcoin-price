@@ -10,3 +10,7 @@ On peut lancer le programme de plusieurs façons différentes :
 - `nodemon btc.js`
 - `npm run dev`
 - `./btc.js`
+
+## Packages utilisés
+
+- [axios](https://www.npmjs.com/package/axios/) qui permet de faire des requêtes HTTP.
