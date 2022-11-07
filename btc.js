@@ -3,7 +3,10 @@ const axios = require('axios');
 
 async function main() {
     try {
-        const currency = process.argv[2].toUpperCase();
+        let currency = 'USD';
+        if (process.argv[2]) {
+            currency = process.argv[2].toUpperCase();
+        }
         const response = await axios.get('http://api.coindesk.com/v1/bpi/currentprice.json');
         if (!response.data.bpi[currency]) {
             throw new Error('Unknown currency');
