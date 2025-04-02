@@ -1,22 +1,21 @@
-# Bitcoin Price
+# 💸 Bitcoin Price
 
-Le projet consiste en la création d'un petit projet en JavaScript avec NodeJS pour pouvoir obtenir, en ligne de commande, le cours actuel du bitcoin. Pour cela, j'utilise l'[API Coinbase](https://www.coinbase.com/cloud/) pour obtenir le cours du bitcoin dans plusieurs devises.
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Node.js](https://img.shields.io/badge/Node.js-18.20%2B-green.svg)
+![axios](https://img.shields.io/badge/axios-1.1.3-blue.svg)
 
-## Démarrer le programme.
+## 📝 Description
+The project involves creating a small JavaScript project with NodeJS to retrieve the current Bitcoin price via the command line. For this, I use the [Coinbase API](https://www.coinbase.com/cloud/) to obtain the Bitcoin price in multiple currencies.
 
-On peut lancer le programme de plusieurs façons différentes :
+## ▶️ Run the Program
+There are several ways to run the program:
 
 - `node btc.js <currency>`
 - `nodemon btc.js <currency>`
 - `npm run dev <currency>`
 - `./btc.js <currency>`
 
-__Liste des devises possibles :__
-
+## 💱 List of Available Currencies
 - `USD`
 - `EUR`
 - `GBP`
-
-## Packages utilisés
-
-- [axios](https://www.npmjs.com/package/axios/) qui permet de faire des requêtes HTTP.
